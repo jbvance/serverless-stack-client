@@ -3,9 +3,8 @@ import { Alert } from 'react-bootstrap';
 
 const Error = ({ message }) => {
   return(
-    <Alert bsStyle="danger">
-    <strong>Error:</strong> {message}
-    good.
+    <Alert bsStyle="danger" style={{textAlign: "center"}}>
+    <strong>Oops, something went wrong!<br /></strong> {message}    
   </Alert>
   );
 };
